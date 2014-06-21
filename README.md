@@ -1,7 +1,7 @@
 buckswindows
 ============
 
-Several examples of jquery/javascript at www.buckswindows.com
+Several examples of jquery/javascript at http://tinyurl.com/nrmw7el
 
 - jquery mobile menu
 - animated feature boxes on home page
