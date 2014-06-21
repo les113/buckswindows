@@ -1,0 +1,110 @@
+
+/*** layout ***/	
+
+	body {background-color:#f6f6f6;}
+
+	.overflowVisible{}  /* overrides amazium. required for hover menus */
+	
+	.logo img{width:100%; max-width:380px;}
+	.topBnrContact {text-align:center;font-family: Georgia, 'Times New Roman', Times, serif;color:#49A829;font-size:2em;line-height:1.2em;}
+	.textBox{background-color:#efefef; padding:20px;}
+	
+	.foot {background-image:url('../images/foot928.png');background-repeat: no-repeat;}
+	.foot {color:white;font-family: Arial;padding:30px 20px;}
+	.foot h5{color:white;font-size:18px;}
+	.foot p{font-size:14px;margin-bottom:2px;}
+
+	.right img {float:right;padding-left:20px;}
+	.left img {float:left;padding-right:20px;}
+	
+	.lamtha2logo
+	{ position: relative;
+	  display: block;
+	  float: left;
+	  background-image: url('../images/designed_by_l2_off.jpg');
+	  background-repeat: no-repeat;
+	  height: 29px;
+	  width: 89px;
+	  cursor: pointer;
+	  margin-top:10px;
+	}
+
+	.lamtha2logo:hover
+	{ background-image: url('../images/designed_by_l2_on.jpg');
+	  background-repeat: no-repeat;
+	}
+
+	/* jquery cycle image slider  */
+
+	#slideshowcontainer {height:308px; position:relative;overflow:hidden;}
+	.slideshow {position:relative;overflow:visible !important;}
+	.slideshow img {width:100%;display:block;}
+	#prevBtn {z-index:5; position:absolute; left:10px; top:140px; cursor:pointer;}
+	#nextBtn {z-index:5; position:absolute; left:890px; top:140px; cursor:pointer;}
+	.slideshowText h1{position:absolute; top:50px; left:640px; width:240px; text-align:center; font-size:1.6em; color:#6B1A69; /*color:#49A829;*/}
+	.lights-out {opacity: 0.3;}
+		
+	/*** feature slides ***/
+
+	.featslide img{width:100%;}
+	.featOvly {position:absolute;top:0;left:170px;width:208px;}	
+	.featOvly img {height:170px;width:100%}	
+	.featOvly p {color:#49A829;text-align:center;position:absolute;top:50px;left:40px;width:140px;}		
+	@media only screen and (min-width: 767px) and (max-width: 960px) {
+	.featOvly {position:absolute;top:0;left:120px;}	
+	.featOvly img {height:130px;}	
+	.featOvly p {position:absolute;top:30px;left:40px;width:100px;}
+	}
+
+/** gallery **/
+	.gallerythumbs {
+		margin:3px;
+		border:2px solid #49A829;
+		padding:3px;
+		width:80px;
+		height:80px;
+	}
+	
+/*** text styling ***/
+
+	body {font-family: Arial;font-size:0.9em;}
+	h2,h3,h4,h5,h6 {font-family: Georgia, "Times New Roman", Times, serif;color:#6B1A69;}
+	h1{font-size:2em;color:#49A829;}	h2{font-size:1.6em;}	h3{font-family: Arial;font-size:1.2em;font-weight:bold;}
+	.slideshowText h1 {font-family: Georgia, "Times New Roman", Times, serif;}
+	li {font-size:0.8em;}
+	.green {color:#49A829;}
+	.burgandy {color:#6B1A69;}
+	
+	/* enquiry form */
+
+	.contactForm {width:280px;float:left;}
+	.contactForm label {width:60px;float:left;text-align:right;padding-right:1em;font-size:12px;}
+	.contactForm label, .contactForm input, #enquiry_form select, #enquiry_form textarea {margin:6px 0;}
+	.contactForm .submitbutton {padding-left:170px;}
+	#thanksnotice{display:none;}
+
+/*** responsive ***/
+
+	/***** phone  *****/
+	@media only screen and (max-width: 768px)  {
+	.foot.grid_3{padding-left:0;}
+	.foot {background-image:none;background-color:#333;}
+	.logo {text-align:center;}
+	}
+	
+	/***** phone and small tablet  *****/
+	@media only screen and (max-width: 767px)  {
+
+	}
+
+	/***** larger tablet  *****/
+	@media only screen and (min-width: 767px) and (max-width: 960px) {
+	.foot {background-image:none;background-color:#333;padding:20px;width:700px;}
+	.slideshowText h1{position:absolute; top:40px; left:520px; width:200px; text-align:center; font-size:1.2em;}
+	#slideshowcontainer {height:252px;}
+	}
+
+	/***** larger tablet  *****/
+	@media only screen and (max-width: 960px) {
+	}
+	
