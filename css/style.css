@@ -56,7 +56,35 @@
 	.featOvly p {position:absolute;top:30px;left:40px;width:100px;}
 	}
 
+/* feature slides animation using css3 rather than jQuery */
+
+	/* regular state - for mouse out animation */
+	.featslide .featOvly{
+    transform: translate(0,0);
+    -webkit-transform: translate(0,0); 
+    -o-transform: translate(0,0);
+    -moz-transform: translate(0,0); 
+
+    transition: all 0.6s ease-in-out;
+    -webkit-transition: all 0.6s ease-in-out; 
+    -moz-transition: all 0.6s ease-in-out; 
+    -o-transition: all 0.6s ease-in-out; 
+	}
+	/* hover animation */
+	.featslide:hover .featOvly{  
+    transform: translate(-170px,0);
+    -webkit-transform: translate(-170px,0); 
+    -o-transform: translate(-170px,0);
+    -moz-transform: translate(-170px,0); 
+
+    transition: all 0.6s ease-in-out;
+    -webkit-transition: all 0.6s ease-in-out; 
+    -moz-transition: all 0.6s ease-in-out; 
+    -o-transition: all 0.6s ease-in-out; 
+	}
+	
 /** gallery **/
+
 	.gallerythumbs {
 		margin:3px;
 		border:2px solid #49A829;
