@@ -1,0 +1,12 @@
+
+
+/*--- prompts/notifications ---*/
+.formError{z-index:5000}
+.formErrorContent{
+	width:100%;
+	color:red;
+	background-color:white;
+	padding:3px;
+	font-size:0.7em;
+}
+ 
